@@ -8,6 +8,11 @@ public class Student {
     private String name;
     private Integer id;
 
+    public Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
     public void setAge(Integer age) {
         this.age = age;
     }

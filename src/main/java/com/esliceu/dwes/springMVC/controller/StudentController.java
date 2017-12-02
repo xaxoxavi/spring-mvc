@@ -15,7 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class StudentController {
     @RequestMapping(value = "/student", method = RequestMethod.GET)
     public ModelAndView student() {
-        Student student = new Student();
+        Student student = new Student("Xavi",34);
         return new ModelAndView("student", "command", student);
     }
 
