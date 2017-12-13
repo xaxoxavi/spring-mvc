@@ -12,6 +12,6 @@
     </head>
 
     <body>
-        <h2>${message}</h2>
+        <h2>${student.name}</h2>
     </body>
 </html>

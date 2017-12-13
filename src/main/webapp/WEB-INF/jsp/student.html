@@ -1,0 +1,35 @@
+<html><head>
+    <title>Spring MVC Form Handling</title>
+</head>
+
+<body>
+<h2>Student Information</h2>
+
+<p>Welcome to Mallorca!</p>
+
+<form id="student" action="/addStudent" method="POST">
+
+
+    <table>
+        <tbody><tr>
+            <td><label for="name">Name</label></td>
+            <td><input id="name" name="name" type="text" value="Xavi"></td>
+        </tr>
+        <tr>
+            <td><label for="age">Age</label></td>
+            <td><input id="age" name="age" type="text" value="34"></td>
+        </tr>
+        <tr>
+            <td><label for="id">id</label></td>
+            <td><input id="id" name="id" type="text" value=""></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Submit">
+            </td>
+        </tr>
+        </tbody></table>
+</form>
+
+
+</body></html>

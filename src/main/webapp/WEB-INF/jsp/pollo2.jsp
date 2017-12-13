@@ -8,10 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Pollo</title>
+    <title>Pollo 2</title>
 </head>
 <body>
-    <h1>Pollo</h1>
+    <h1>Pollo 2</h1>
     <h2>${student.name}</h2>
     <br/>
     <p>El temps en executar el metode: ${time}</p>
