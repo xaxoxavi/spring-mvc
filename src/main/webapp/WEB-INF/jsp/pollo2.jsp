@@ -14,6 +14,10 @@
     <h1>Pollo 2</h1>
     <h2>${student.name}</h2>
     <br/>
+    <%
+        Object ob = null;
+        ob.toString();
+    %>
     <p>El temps en executar el metode: ${time}</p>
 </body>
 </html>
